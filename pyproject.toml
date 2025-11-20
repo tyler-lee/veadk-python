@@ -3,7 +3,7 @@ name = "veadk-python"
 version = "0.2.22"
 description = "Volcengine agent development kit, integrations with Volcengine cloud services."
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 license = { file = "LICENSE" }
 authors = [
     {name = "Yaozheng Fang", email = "fangyozheng@gmail.com"},
@@ -36,6 +36,7 @@ dependencies = [
     "pymysql>=1.1.1", # For MySQL database (short term memory)
     "opensearch-py==2.8.0",
     "filetype>=1.2.0",
+    "trustedmcp>=0.0.2",
 ]
 
 [project.scripts]
